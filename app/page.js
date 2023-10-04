@@ -50,7 +50,7 @@ const Weather = () => {
 
       {/* Search */}
       <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 text-white z-10'>
-        <form onSubmit={fetchWeather} className='flex justify-between items-center w-full m-auto p-3 bg-transparent backdrop border border-white text-white rounded-2xl'>
+        <form onSubmit={fetchWeather} className='flex justify-between items-center w-full m-auto p-3 bg-transparent backdrop-blur-lg border border-none text-white rounded-2xl'>
             <div>
                 <input
                 onChange={(e) => setCity(e.target.value)}
